@@ -13,6 +13,3 @@ Utilizei o PHP com Laravel e o Redis para armazenar processos.
 
 Licenciado sob [MIT](LICENSE).
 
-## Contribuindo
-
-Siga as [diretrizes de contribuição](CONTRIBUTING.md) para contribuir com o projeto.
