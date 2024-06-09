@@ -16,6 +16,8 @@
     <meta property="og:image:alt" content="URL - Shortener">
     <meta property="og:image" content="{{ asset('images/url-short.png') }}">
     <meta property="og:title" content="Challenge Backend Brazil: URL - Shortener">
+    <meta property="og:description" content="Challenge Backend Brazil: URL - Shortener">
+
 </head>
 
 <body class="bg-gray-900 font-mono">
