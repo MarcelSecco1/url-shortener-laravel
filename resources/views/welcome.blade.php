@@ -14,7 +14,7 @@
     <!-- LinkedIn Specific Meta Tags -->
     <meta property="og:site_name" content="URL - Shortener">
     <meta property="og:image:alt" content="URL - Shortener">
-    <meta property="og:image" content="/public/url-short.png">
+    <meta property="og:image" content="{{ asset('images/url-short.png') }}">
     <meta property="og:title" content="Challenge Backend Brazil: URL - Shortener">
 </head>
 
