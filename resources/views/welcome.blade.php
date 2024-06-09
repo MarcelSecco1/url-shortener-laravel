@@ -7,6 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>URL - Shortener</title>
     @vite('resources/css/app.css')
+
+    <link rel="icon" href="https://avatars3.githubusercontent.com/u/30732658?v=4&s=200.jpg" type="image/jpeg">
+
+
+    <!-- LinkedIn Specific Meta Tags -->
+    <meta property="og:site_name" content="URL - Shortener">
+    <meta property="og:image:alt" content="URL - Shortener">
+    <meta property="og:image" content="/url-short.png">
+    <meta property="og:title" content="Challenge Backend Brazil: URL - Shortener">
 </head>
 
 <body class="bg-gray-900 font-mono">
@@ -28,7 +37,7 @@
         @if (session('short_url'))
             <div class="text-white mt-4">
                 Your shortened URL is: <a href="{{ session('short_url') }}" class="underline"
-                    target="_blank">{{ config('app.url') . '/'. session('short_url') }}</a>
+                    target="_blank">{{ config('app.url') . '/' . session('short_url') }}</a>
             </div>
         @endif
 
@@ -36,7 +45,7 @@
 
     <footer class="absolute bottom-0 w-full bg-gray-900 text-white text-center py-4">
         <!-- Conteúdo do rodapé aqui -->
-       Desenvolved by <a href="https://github.com/MarcelSecco1" class="underline">Marcel Secco</a>
+        Desenvolved by <a href="https://github.com/MarcelSecco1" class="underline">Marcel Secco</a>
     </footer>
 </body>
 
